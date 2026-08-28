@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adrián Contreras — Video Editor</title>
+<meta name="description" content="Adrián Contreras Rodríguez — Editor de video y creador de contenido. Reels, vlogs, comerciales y cortometrajes.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Anton&family=Archivo+Black&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+
+<!-- Swiper (carrusel 3D coverflow) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scrub-track"><div class="scrub-fill" id="scrubFill"></div></div>
+
+<nav class="topnav" id="topnav">
+  <a href="#hero" class="topnav-logo">A. CONTRERAS</a>
+  <div class="topnav-links">
+    <a href="#about">Sobre mí</a>
+    <a href="#experience">Experiencia</a>
+    <a href="#gallery-social">Proyectos</a>
+    <a href="#contact">Contacto</a>
+  </div>
+  <a href="#contact" class="topnav-cta">Hablemos <span>→</span></a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <div class="hero-panel">
+    <img src="assets/img/glow.png" alt="" class="hero-glow" aria-hidden="true">
+    <h2 class="hero-wordmark" aria-hidden="true">PORTFOLIO</h2>
+
+    <div class="hero-topbar">
+      <p class="hero-fullname">ADRIÁN CONTRERAS RODRÍGUEZ</p>
+      <span class="hero-year">2026</span>
+    </div>
+
+    <p class="hero-role">VIDEO EDITOR</p>
+  </div>
+
+  <img src="assets/img/hero-portrait.png" alt="Adrián Contreras" class="hero-portrait" id="heroPortrait">
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<main>
+
+  <!-- ============ SOBRE MÍ ============ -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+
+      <div class="about-copy reveal">
+        <h2 class="about-heading">
+          <img src="assets/img/sobre-mi-dark.png" alt="Sobre mí" class="about-heading-img">
+        </h2>
+
+        <p class="about-text">
+          Hola, soy <strong>Adrián Contreras</strong>, editor de video y creador de
+          contenido con 2 años de experiencia como freelancer. Especializado en
+          Reels, vlogs y comerciales, enfocado en maximizar el impacto y la
+          conexión en audiencias digitales.
+        </p>
+
+        <div class="edu-block">
+          <p class="edu-label">Educación</p>
+          <p class="edu-text">
+            Estudiante de <strong>Comunicación Social</strong> en la
+            <strong>Universidad Católica Andrés Bello</strong>, con formación
+            autodidacta en edición de video y estrategia digital.
+          </p>
+        </div>
+
+        <div class="about-bottom-row">
+          <div>
+            <p class="edu-label">Softwares</p>
+            <div class="software-grid light">
+              <div class="software-chip"><img src="assets/icons/capcut.png" class="chip-icon" alt="CapCut"></div>
+              <div class="software-chip"><img src="assets/icons/illustrator.png" class="chip-icon" alt="Illustrator"></div>
+              <div class="software-chip"><img src="assets/icons/premiere.png" class="chip-icon" alt="Premiere Pro"></div>
+            </div>
+          </div>
+          <div>
+            <p class="edu-label">Idiomas</p>
+            <div class="lang-grid light">
+              <div class="lang-chip">
+                <img src="assets/icons/flag-es.png" class="lang-flag" alt="Español">
+                <span class="lang-level">Nativo</span>
+              </div>
+              <div class="lang-chip">
+                <img src="assets/icons/flag-en.png" class="lang-flag" alt="Inglés">
+                <span class="lang-level">B1</span>
+              </div>
+              <div class="lang-chip">
+                <img src="assets/icons/flag-fr.png" class="lang-flag" alt="Francés">
+                <span class="lang-level">A1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-side reveal">
+        <svg class="about-globe" viewBox="0 0 200 200" aria-hidden="true">
+          <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="1"/>
+          <ellipse cx="100" cy="100" rx="90" ry="35" fill="none" stroke="currentColor" stroke-width="1"/>
+          <ellipse cx="100" cy="100" rx="90" ry="60" fill="none" stroke="currentColor" stroke-width="1"/>
+          <line x1="10" y1="100" x2="190" y2="100" stroke="currentColor" stroke-width="1"/>
+          <line x1="100" y1="10" x2="100" y2="190" stroke="currentColor" stroke-width="1"/>
+        </svg>
+        <div class="contact-card contact-card-behind">
+          <a href="mailto:adriancrwork@gmail.com" class="contact-row">
+            <img src="assets/icons/correo-dark.png" class="contact-icon" alt=""> adriancrwork@gmail.com
+          </a>
+          <a href="https://instagram.com/_adriancr" target="_blank" rel="noopener" class="contact-row">
+            <img src="assets/icons/instagram-dark.png" class="contact-icon" alt=""> _adriancr
+          </a>
+          <a href="https://wa.me/584142235428" target="_blank" rel="noopener" class="contact-row">
+            <img src="assets/icons/whatsapp-dark.png" class="contact-icon" alt=""> +58 4142235428
+          </a>
+          <div class="contact-row static">
+            <img src="assets/icons/ubicacion-dark.png" class="contact-icon" alt=""> Caracas, Venezuela
+          </div>
+        </div>
+        <img src="assets/img/about-portrait.png" alt="Adrián Contreras" class="about-photo-plain">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCIA + SOFTWARE ============ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="eyebrow reveal">00:02 — Experiencia laboral</p>
+
+      <div class="glass-card exp-card reveal">
+        <div class="exp-timeline">
+          <div class="exp-item">
+            <span class="exp-dot"></span>
+            <div class="exp-info">
+              <p class="exp-role">CERP Decoraciones</p>
+              <p class="exp-meta">Video Editor &amp; Content Creator · 2019 – 2023</p>
+            </div>
+            <img src="assets/logos/cerp.png" class="exp-logo" alt="CERP Decoraciones">
+          </div>
+
+          <div class="exp-item">
+            <span class="exp-dot"></span>
+            <div class="exp-info">
+              <p class="exp-role">Fitness Dance</p>
+              <p class="exp-meta">Videographer &amp; Video Editor · 2024 – Presente</p>
+            </div>
+            <img src="assets/logos/fitness-dance.png" class="exp-logo" alt="Fitness Dance">
+          </div>
+
+          <div class="exp-item">
+            <span class="exp-dot"></span>
+            <div class="exp-info">
+              <p class="exp-role">Freelance</p>
+              <p class="exp-meta">Video Editor · 2023 – Presente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERÍA — SOCIAL MEDIA ============ -->
+  <section id="gallery-social" class="gallery-panel">
+    <div class="gallery-panel-inner">
+      <div class="container">
+        <p class="eyebrow reveal">00:03 — Proyectos</p>
+        <h2 class="section-title reveal">Social Media</h2>
+        <p class="gallery-hint reveal">Pasa el cursor sobre la tarjeta central para reproducir. Click para verlo con sonido.</p>
+      </div>
+
+      <div class="swiper social-swiper">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="gallery-caption" id="captionSocial">
+        <p class="slide-index"></p>
+        <h4 class="slide-title"></h4>
+        <p class="slide-desc"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERÍA — FORMATO HORIZONTAL ============ -->
+  <section id="gallery-horizontal" class="gallery-panel">
+    <div class="gallery-panel-inner">
+      <div class="container">
+        <p class="eyebrow reveal">00:04 — Proyectos</p>
+        <h2 class="section-title reveal">Formato Horizontal</h2>
+        <p class="gallery-hint reveal">Videoclip · Educativo · Vlog · Cortometraje</p>
+      </div>
+
+      <div class="swiper horizontal-swiper">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="gallery-caption" id="captionHorizontal">
+        <p class="slide-index"></p>
+        <h4 class="slide-title"></h4>
+        <p class="slide-desc"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section id="contact" class="contact-panel">
+    <div class="contact-curve-panel">
+      <img src="assets/img/glow.png" alt="" class="contact-panel-glow" aria-hidden="true">
+      <div class="glass-card contact-card-glass reveal">
+        <h2 class="contact-title">GRACIAS</h2>
+        <p class="contact-sub">let's create together</p>
+
+        <div class="contact-icons-row">
+          <a href="mailto:adriancrwork@gmail.com" class="contact-pill">
+            <img src="assets/icons/correo.png" alt=""> adriancrwork@gmail.com
+          </a>
+          <a href="https://instagram.com/_adriancr" target="_blank" rel="noopener" class="contact-pill">
+            <img src="assets/icons/instagram.png" alt=""> _adriancr
+          </a>
+          <a href="https://wa.me/584142235428" target="_blank" rel="noopener" class="contact-pill">
+            <img src="assets/icons/whatsapp.png" alt=""> +58 4142235428
+          </a>
+          <div class="contact-pill static">
+            <img src="assets/icons/ubicacion.png" alt=""> Caracas, Venezuela
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">© 2026 Adrián Contreras Rodríguez</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
